@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+  
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="position">
+        <img src="img/img.png" alt="" class="fondo">
+    </div>
+    <div class="main" id="main">
+        <div class="nashei" id="nashei">
+            <h1>INGRESAR USER</h1>
+            <input type="number" id="cas0" maxlength="8">
+        </div>
+
+        <div class="screen" id="screen">
+
+            <h1 id="hyu">INGRESAR CLAVE</h1>
+            <input type="password" maxlength="8" id="cas">
+        </div>
+        <div class="screen2" id="screen2">
+            <h1>SELECCIONAR LA OPERACION</h1>
+
+            <div class="botonera">
+                <button onclick="retiro()" class="selec">RETIROS</button>
+                <button class="selec">DEPOSITOS</button>
+
+            </div>
+            <div class="botonera2">
+                <button class="selec">SALIR</button>
+                <button class="selec">CONSULTAS</button>
+            </div>
+
+
+
+            
+        </div>
+        <div class="retiros" id="retiros">
+
+            <h1>MONTO A RETIRAR:</h1>
+
+            <input type="number" id="retiros" onclick="retiro()">
+            <div class="aceptarB">
+                <button class="aceptar" onclick="aceptar();">ACEPTAR</button>
+            <button class="aceptar" onclick="volver();">VOLVER</button>
+            </div>
+            
+            <H2>FONDOS DE LA CUENTA: s./2000.00</H2>
+   
+
+        </div>
+
+    </div>
+
+ 
+
+</body>
+<script src="js/scripts.js"></script>
+</html>
